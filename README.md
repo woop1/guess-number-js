@@ -14,9 +14,9 @@ Abre `index.html` y cambia estos 4 elementos:
 
 | Placeholder                     | Qué escribir        |
 | ------------------------------- | ------------------- |
-| `Tu Nombre`                     | Tu nombre real      |
-| `Una línea sobre ti...`         | Tu bio breve        |
-| `https://github.com/tu-usuario` | Tu perfil de GitHub |
+| `Angel Ricardo`                     | Tu nombre real      |
+| `Me gusta la musica`         | Tu bio breve        |
+| `https://github.com/woop1` | Tu perfil de GitHub |
 | `tu@email.com`                  | Tu email            |
 
 - Puedes colocar el .png o .jpg de tu foto en la misma carpeta del proyecto y cambiar el atributo src de la etiqueta img.
