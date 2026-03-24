@@ -57,12 +57,12 @@ console.log('5' - 3);
 let saludo1 = 'Hola ' + nombreUsuario + ', tienes ' + edadUsuario + ' años.';
 console.log(saludo1);
 
-let saludo2 = `Hola  ${nombreUsuario} tienes ${edadUsuario} años.`;
+let saludo2 = `Hola  ${nombreUsuario}, tienes ${edadUsuario} años.`;
 console.log(saludo2);
 
 // --- Calculadora de edad ---
 let anioActual = 2026;
 let anioNacimiento = anioActual - Number(edadUsuario);
 
-let saludo3 = `Hola  ${nombreUsuario} naciste aproximadamente en el año ${anioNacimiento}.`;
+let saludo3 = `Hola  ${nombreUsuario}, naciste aproximadamente en el año ${anioNacimiento}.`;
 console.log(saludo3);
