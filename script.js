@@ -66,3 +66,4 @@ let anioNacimiento = anioActual - Number(edadUsuario);
 
 let saludo3 = `Hola  ${nombreUsuario}, naciste aproximadamente en el año ${anioNacimiento}.`;
 console.log(saludo3);
+
