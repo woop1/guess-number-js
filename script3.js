@@ -57,8 +57,17 @@ function verificarIntento() {
   contador.textContent = 'Intentos: ' + intentos;
 
   // Agregar al historial
-  historialIntentos.push(valor);
-  historial.textContent = 'Historial: ' + historialIntentos.join(', ');
+  // Agregar pastilla de color al historial
+let color = valor > numeroSecreto 
+  ? '#ff6b6b' 
+  : valor < numeroSecreto 
+  ? '#4ecdc4' 
+  : '#00ff88';
+
+historial.innerHTML += 
+  '<span class="guess-pill" style="background:' + color + '30; color:' + color + '">' 
+  + valor + 
+  '</span>';
 
   // Comparar con el número secreto
   if (valor === numeroSecreto) {
@@ -99,7 +108,7 @@ function reiniciarJuego() {
   historialIntentos = [];
 
   contador.textContent = 'Intentos: 0';
-  historial.textContent = 'Historial: ';
+ historial.innerHTML = '';
   mostrarMensaje('🎯 ¡Nuevo juego! Adivina el número...', '#e94560');
 
   btnAdivinar.disabled = false;
