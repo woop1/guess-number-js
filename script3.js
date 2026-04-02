@@ -110,7 +110,7 @@ function verificarIntento() {
 if (intentos >= maxIntentos && valor !== numeroSecreto) {
   mostrarMensaje('💀 ¡Perdiste! Era el ' + numeroSecreto, 'red');
   btnAdivinar.disabled = true;
-  btnReiniciar.style.display = 'inl ine-block';
+  btnReiniciar.style.display = 'inline-block';
 
 }
 
